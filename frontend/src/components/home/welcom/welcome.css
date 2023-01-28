@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome{
+    padding: 50px 0;
+    position: relative;
+}
+
+.inner-welcom-content{
+   position: relative;
+   margin-top: 200PX;
+}
+
+.inner-welcom-content  h3{
+    color: red;
+}
+
+.inner-welcom-content h2{
+    margin: 30PX 0;
+    color: #000;
+}
+.welcom-img{
+    border-radius: 20px;
+}
+
+.welcom-img img{
+width: 100%;
+border-radius: 20px;
+}
+
+.inner-welcom-content-btn{
+    border: none;
+    background-color: #fff;
+}

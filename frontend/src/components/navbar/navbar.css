@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #000;
+}
+
+.list-navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar-link{
+    color: #fff !important;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.navbar-link:hover{
+    color: orange;
+}
